@@ -1,8 +1,8 @@
 // Immediate Invoked Function Expressions
-// Why us
+// Why use
 // => Immediate excuted fun. but 
 // with Global scope ke pollution se problem hoti 
-// jo bhi global me declaration or variable ko hata ne ke liye
+// jo bhi global me declaration or variable ko bata ne ke liye
 
 (function mesg() {
     // Named IIFE
