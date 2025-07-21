@@ -18,7 +18,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Dev",
     "full name": "Valand Dev",
-    [mySym]: "keyValue1",
+    [mySym]: "keyValue1", //symbol syntax to declare in obj.
     age: 18,
     location: "Ahm",
     email: "dev@gmail.com",
