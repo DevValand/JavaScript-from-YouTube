@@ -11,7 +11,6 @@ googleUser.isLoggedIn=false
 
 console.log(googleUser); 
 
-
 // Object literals 
 const mySym = Symbol("key1")
 
