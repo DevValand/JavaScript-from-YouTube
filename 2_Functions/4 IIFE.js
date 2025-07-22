@@ -10,6 +10,7 @@
 })();
 
 (()=>{
+    //Simple IIFE
     console.log("DB connected TWO!");
 })()
 
