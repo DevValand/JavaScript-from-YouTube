@@ -28,8 +28,6 @@ if(true){
 }
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
-
-
 console.log(addone(5))
 
 function addone(num){
