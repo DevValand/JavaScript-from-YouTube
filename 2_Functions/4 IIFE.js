@@ -9,6 +9,10 @@
     console.log("DB connected!");
 })();
 
+(()=>{
+    console.log("DB connected TWO!");
+})()
+
 ((name)=>{
     console.log(`DB connected! ${name}` );
 })("MySQL") // ("") this is originally call 
