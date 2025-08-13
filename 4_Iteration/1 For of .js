@@ -29,6 +29,6 @@ for (const [key, value] of map) {
 //     game2: 'Spiderman'
 // }
 
-// for (const [key, value] of myObject) { //not ieratable 
+// for (const [key, value] of myObject) { //not ieratable therefore it is not work
 //     console.log(key, ':-', value);    
 // }
