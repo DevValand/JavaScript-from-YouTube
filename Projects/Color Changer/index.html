@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3963/3963860.png" type="image/x-icon">
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    .button{
+        width: 25vh;
+        height: 25vh;
+        border: 2px solid;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    #orange{
+        background-color: orange;
+    }
+    #white{
+        background-color: white;
+    }
+    #green{
+        background-color: green;
+    }
+    #red{
+        background-color: red;
+    }
+    #blue{
+        background-color: blue;
+    }
+    #yellow{
+        background-color: yellow;
+    }
+</style>
+<body style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+    <h1>Color scheme switcher</h1>
+    <div class="container">
+        <span class="button" id="orange"></span>
+        <span class="button" id="white"></span>
+        <span class="button" id="green"></span>
+        <span class="button" id="red"></span>
+        <span class="button" id="blue"></span>
+        <span class="button" id="yellow"></span>
+    </div>
+    <div>
+        <h2>Click the box to Change the background of page</h2>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
